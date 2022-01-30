@@ -638,3 +638,7 @@ PRODUCT_BOOT_JARS += \
 
 # Vendor
 $(call inherit-product, vendor/xiaomi/peridot/peridot-vendor.mk)
+
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
