@@ -645,6 +645,9 @@ PRODUCT_BOOT_JARS += \
 # Vendor
 $(call inherit-product, vendor/xiaomi/peridot/peridot-vendor.mk)
 
+# ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Remove Packages
 PRODUCT_PACKAGES += \
     RemovePackages
