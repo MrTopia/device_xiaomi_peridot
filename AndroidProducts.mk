@@ -6,3 +6,6 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_peridot.mk
+
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/aosp_peridot.mk
