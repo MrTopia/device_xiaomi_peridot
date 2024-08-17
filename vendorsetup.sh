@@ -8,6 +8,10 @@ echo "Cloning Vendor..."
 # Vendor
 git clone https://github.com/peridot-dev/proprietary_vendor_xiaomi_peridot vendor/xiaomi/peridot
 
+echo "Cloning Google Camera..."
+# Camera
+git clone https://github.com/MrTopia/vendor_xiaomi_peridot-gcam vendor/xiaomi/peridot-gcam
+
 echo "Cloning hardware related stuff..."
 # Hardware
 rm -rf hardware/xiaomi && git clone https://github.com/peridot-dev/android_hardware_xiaomi hardware/xiaomi
