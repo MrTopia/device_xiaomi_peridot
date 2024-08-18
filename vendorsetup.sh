@@ -20,4 +20,8 @@ echo "Cloning Udfps Stuffs..."
 # UDFPS
 cd frameworks/base && git fetch https://github.com/MrTopia/frameworks_base && git cherry-pick 9f65260 && cd ../..
 
+echo "Cloning BCR..."
+# BCR
+git clone https://github.com/MrTopia/vendor_bcr vendor/bcr
+
 echo "Completed, proceeding to lunch"
