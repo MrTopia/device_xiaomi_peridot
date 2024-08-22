@@ -16,10 +16,6 @@ echo "Cloning hardware related stuff..."
 # Hardware
 rm -rf hardware/xiaomi && git clone https://github.com/peridot-dev/android_hardware_xiaomi hardware/xiaomi
 
-echo "Cloning Udfps Stuffs..."
-# UDFPS
-cd frameworks/base && git fetch https://github.com/MrTopia/frameworks_base && git cherry-pick 9f65260 && cd ../..
-
 echo "Cloning BCR..."
 # BCR
 git clone https://github.com/MrTopia/vendor_bcr vendor/bcr
